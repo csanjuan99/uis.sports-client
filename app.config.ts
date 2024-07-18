@@ -1,8 +1,14 @@
 export default defineAppConfig({
     ui: {
-        primary: 'green',
+        primary: 'yellow',
         notifications: {
             position: 'top-0 bottom-auto'
+        },
+        button: {
+            rounded: 'rounded-none',
+            default: {
+                size: 'lg',
+            }
         }
     },
     auth: {

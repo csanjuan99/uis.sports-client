@@ -1,18 +1,8 @@
-<script setup lang="ts">
-
-// composable
-const route = useRoute();
-
-// computed
-const slug = computed(() => route.params.slug);
-</script>
-
 <template>
-  <p>
-    {{ route.params.slug}}
-  </p>
+  <main>
+    <ContentDoc/>
+  </main>
 </template>
 
-<style scoped>
-
-</style>
+<script setup lang="ts">
+</script>
